@@ -1,0 +1,371 @@
+shared_focus = {
+	id = KOR_invasion_daema
+	icon = GFX_goal_unknown
+	cost = 1.00
+	x = 8
+	y = 0
+	allow_branch = {
+		has_country_flag = KOR_invasion_start
+	}
+	completion_reward = {
+		every_owned_state = {
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+		}
+		every_country = {
+			limit = { owns_state = 306 }
+				every_owned_state = {
+					create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes 
+				owner = KOR
+			}
+				}
+				KOR = {
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+				}
+			}
+
+		}
+    }
+}
+
+shared_focus = {
+	id = KOR_invasion_Kyushu
+	icon = GFX_goal_unknown
+	cost = 1
+	x = 8
+	y = 1
+	available = {
+		owns_state = 306
+	}
+	prerequisite = {
+		focus = KOR_invasion_daema
+	}
+	completion_reward = {
+		every_owned_state = {
+			create_unit = {
+				division = "division_template = \"SSSS戦車師団\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+				allow_spawning_on_enemy_provs = yes
+				allow_spawning_on_enemy_provs = yes owner = KOR
+			}
+		}
+		every_country = {
+			limit = {
+				is_kyushu = yes
+			}
+			KOR = {
+				declare_war_on = {
+					target = PREV
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = KOR_consume_kyushu
+	icon = GFX_goal_unknown
+	cost = 1
+	x = 8
+	y = 2
+	available = {
+		owns_state = 306
+		owns_state = 307
+		owns_state = 302
+		owns_state = 305
+		owns_state = 303
+		owns_state = 304
+		owns_state = 299
+		owns_state = 301
+		owns_state = 300
+		owns_state = 298
+		owns_state = 297
+		owns_state = 296
+		owns_state = 387
+		owns_state = 295
+		owns_state = 386
+		owns_state = 290
+		owns_state = 427
+		owns_state = 291
+		owns_state = 385
+		owns_state = 293
+		owns_state = 384
+		owns_state = 292
+		owns_state = 388
+		owns_state = 294
+		owns_state = 389
+		owns_state = 426
+		owns_state = 404
+		owns_state = 308
+		owns_state = 310
+		owns_state = 405
+		owns_state = 309
+		owns_state = 313
+		owns_state = 311
+		owns_state = 312
+		owns_state = 390
+		owns_state = 315
+		owns_state = 391
+		owns_state = 314
+		owns_state = 432
+		owns_state = 316
+		owns_state = 392
+		owns_state = 317
+		owns_state = 318
+		owns_state = 320
+		owns_state = 319
+		owns_state = 401
+		owns_state = 402
+		owns_state = 322
+		owns_state = 321
+		owns_state = 403
+		owns_state = 323
+		owns_state = 324
+		owns_state = 325
+		owns_state = 326
+		owns_state = 327
+		owns_state = 430
+		owns_state = 429
+		owns_state = 393
+		owns_state = 394
+		owns_state = 328
+		owns_state = 431
+		owns_state = 329
+		owns_state = 428
+		owns_state = 395
+		owns_state = 330
+		owns_state = 331
+		owns_state = 399
+		owns_state = 428
+		owns_state = 397
+		owns_state = 398
+		owns_state = 400
+		owns_state = 396
+		owns_state = 332
+		owns_state = 333
+		owns_state = 334
+	}
+	prerequisite = {
+		focus = KOR_invasion_Kyushu
+	}
+	completion_reward = {
+		every_owned_state = {
+			add_compliance = 100
+		}
+		clr_country_flag = KOR_invasion_start
+		set_country_flag = KOR_kyushu_end
+		KOR_reload_tree = yes
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_1
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 8
+	y = 0
+	allow_branch = {
+		has_country_flag = KOR_kyushu_end
+	}
+	select_effect = {
+		country_event = { id = ROH.1 days = 7 }
+	}
+	completion_reward = {
+		add_political_power = 100
+		custom_effect_tooltip = KOR_policy
+		hidden_effect = {
+			country_event = KOR.3
+		}
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_demo
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = KOR_politic_1
+	}
+	completion_reward = {
+	
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_comm
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = KOR_politic_1
+	}
+	completion_reward = {
+	
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_neut
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 8
+	y = 1
+	prerequisite = {
+		focus = KOR_politic_1
+	}
+	completion_reward = {
+	
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_fasc
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 10
+	y = 1
+	prerequisite = {
+		focus = KOR_politic_1
+	}
+	completion_reward = {
+	
+	}
+}
+
+shared_focus = {
+	id = KOR_politic_roh
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 12
+	y = 1
+	prerequisite = {
+		focus = KOR_politic_1
+	}
+	completion_reward = {
+	
+	}
+}

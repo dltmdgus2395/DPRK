@@ -1,0 +1,63 @@
+scripted_gui = {
+	KOR_gui_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "KOR_gui_open"
+		
+		visible = {
+			tag = KOR
+			has_country_flag = KOR_politic
+		}
+		
+		effects = {
+			KOR_gui_open_Button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = KOR_gui_open_flag } }
+					set_country_flag = KOR_gui_open_flag
+					parliament_seats_initial = yes
+				}
+				else_if = {
+					limit = { has_country_flag = KOR_gui_open_flag }
+					clr_country_flag = KOR_gui_open_flag
+					clear_array = global.parliament_main_array
+					clear_array = global.parliament_seat_array
+				}
+			}
+		}
+	}
+	
+	KOR_gui_main = {
+		context_type = player_context
+		parent_window_token = KOR_gui_main
+		window_name = "KOR_gui_main"
+		
+		visible = {
+			has_country_flag = KOR_gui_open_flag
+		}
+		
+		triggers = {
+		
+		}
+		
+		dynamic_lists = {
+			parliament_main_grid = {
+				array = global.parliament_main_array
+				change_scope = yes
+				entry_container = parliament_main_entry
+			}
+		}
+		
+		effects = {
+			KOR_gui_close_button_click = {
+				clr_country_flag = KOR_gui_open_flag
+				clear_array = global.parliament_main_array
+				clear_array = global.parliament_seat_array
+			}
+		}
+		properties = {
+			member_icon = {
+				frame = v
+			}
+		}
+	}
+}

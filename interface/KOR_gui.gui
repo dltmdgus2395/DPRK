@@ -1,0 +1,65 @@
+guiTypes = {
+	containerWindowType = {
+		name = "KOR_gui_open"
+		size = { width = 220 height = 128 }
+		position = { x = -50 y = 440 }
+
+		buttonType = {
+			name = "KOR_gui_open_Button"
+			quadTextureSprite = "korea_politic"
+			position = { x = 230 y = -135 }
+			pdx_tooltip = "scripted_gui_open_kor"
+			scale = 0.3
+		}
+	}
+	
+	containerWindowType = {
+		name = "KOR_gui_main"
+		size = { width = 800 height = 700 }
+		position = { x = 541 y = 79 }
+		moveable = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		buttonType = {
+			name = "KOR_gui_close_button"
+			position = { x = -45 y = 15 }
+			quadTextureSprite ="GFX_NV_btn_close"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		containerWindowType = {
+			name = "parliament_gui"
+			position = { x = 1 y = 1 }
+			size = { width = 400 height = 400 }
+			
+			gridboxtype = {
+				name = "parliament_main_grid"
+				position = { x = -400 y = 15 }
+				size = { width = 100%% height = 100%% }
+				padding = { top = 0 bottom = 10 }
+				slotsize = { width = 17 height = 17 }
+				max_slots_vertical = 15
+				add_horizontal = no
+			}
+		}
+	}
+	containerWindowType = {
+        name = "parliament_main_entry"
+        position = { x = 59 y = 35 }
+		size = { width = 20 height = 20 }
+		scale = 1.2
+
+		iconType = {
+			name = "GFX_seat_icon"
+			spriteType = "GFX_Seat_Boxes"
+			position = { x = 0 y = 0 }
+		}
+    }
+}

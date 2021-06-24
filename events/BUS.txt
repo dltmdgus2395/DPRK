@@ -1,0 +1,39 @@
+add_namespace = BUS
+
+country_event = {
+	id = BUS.1
+	title = BUS.1.t
+	desc = BUS.1.d
+	is_triggered_only = yes
+	picture = KOR1
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = KOR_uprising
+			remove_ideas = BUS_alone
+			KOR = {
+				annex_country = {
+					target = BUS
+					transfer_troops = yes
+				}
+				change_tag_from = BUS
+				add_state_core = 442
+				add_state_core = 443
+			}
+			every_country = {
+				country_event = {
+				id = KOR.1
+				days = 3
+				}
+			}
+		}
+
+	
+	}
+	option = { 
+		name = BUS.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

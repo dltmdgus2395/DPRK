@@ -1,0 +1,31 @@
+state={
+	id=451
+	name="Busan"
+	resources={
+		chromium=1000
+		aluminium=1000
+		steel=1000
+		tungsten=1000
+		rubber=1000
+		oil=1000
+	}
+
+	history={
+		owner = BUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUS
+		victory_points = {
+			1865 50
+		}
+
+	}
+
+	provinces={
+		1865 6280 2973 6279 6282 3212 6284 3950 6285 4758 6289 5161 4440 6287 3734
+	}
+	manpower = 3401072
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

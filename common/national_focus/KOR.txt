@@ -1,0 +1,24 @@
+focus_tree = {
+	id = KOR_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1200 }
+	default = no
+	shared_focus = KOR_invasion_daema
+	shared_focus = KOR_politic_1
+}
+focus_tree = {
+	id = KOR_focus_swap
+	country = {
+		factor = 5
+	}
+	continuous_focus_position = { x = 50 y = 1200 }
+	default = no
+	shared_focus = KOR_invasion_daema
+	shared_focus = KOR_politic_1
+}

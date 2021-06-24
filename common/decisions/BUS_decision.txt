@@ -1,0 +1,25 @@
+korean_summon = {
+	summon_6th_republic = {
+	icon = decision_generic_political_discourse
+	
+		available = {
+			date > 1942.1.1
+		}
+
+		visible = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			custom_effect_tooltip = BUS_josen_summon
+			hidden_effect = {
+				country_event = {
+					id = BUS.1
+					days = 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,111 @@
+capital = 442
+
+oob = "KOR"
+add_ideas = {
+
+}
+set_research_slots = 4
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	minpei1= 1
+	fuel_silos= 1
+	gw_artillery = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	ancient_medium_tank = 1
+	basic_medium_tank = 1
+	improved_medium_tank = 1
+	advanced_medium_tank = 1
+	main_battle_tank = 1
+	
+	early_submarine = 1
+	early_destroyer = 1
+	transport = 1
+	
+	CAS1 = 1
+	fighter1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+	mechanised_infantry3 = 1
+	tech_mountaineers = 1
+	motorized_rocket_unit = 1
+}
+
+set_popularities = {
+	democratic = 100
+	neutrality = 0
+	communism = 0
+	fascism = 0
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "2017.5.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 2500
+set_stability = 1
+set_war_support = 1
+
+create_country_leader = {
+	name = "文在寅"
+	desc = "POLITICS_MOON_DESC"
+	picture = "Face/moon.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "朴槿惠"
+	desc = "POLITICS_PARK_GEUN_HYE_DESC"
+	picture = "Face/Park.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "金正恩"
+	desc = "POLITICS_KIM_JUNG_UN_DESC"
+	picture = "Face/Kim.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "摂政会議"
+	desc = "POLITICS_SUBJUNG_DESC"
+	picture = "Face/Regent.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+
+	}
+}

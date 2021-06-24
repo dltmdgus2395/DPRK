@@ -1,0 +1,7 @@
+korean_summon = {
+	icon = generic_propaganda
+	
+	visible = {
+		original_tag = BUS
+	}
+}

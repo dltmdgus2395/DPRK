@@ -1,0 +1,49 @@
+KOR_reload_tree = {
+	hidden_effect = {###ありがとうTNO
+		if = {
+			limit = { has_focus_tree = KOR_focus_swap }
+			load_focus_tree = { tree = KOR_focus keep_completed = yes }
+		}
+		else_if = {
+			limit = { has_focus_tree = KOR_focus }
+			load_focus_tree = { tree = KOR_focus_swap keep_completed = yes }
+		}
+	}
+}
+parliament_seats_initial = {
+	add_to_array = { global.parliament_seat_array = 108 }
+	add_to_array = { global.parliament_seat_array = 76 }
+	add_to_array = { global.parliament_seat_array = 104 }
+	add_to_array = { global.parliament_seat_array = 12 }
+	add_to_array = { global.parliament_seat_array = 0 }
+
+	for_loop_effect = {
+		start = 1
+		end = 5
+		add_to_array = { global.parliament_id_array = v }
+	}
+
+	modify_parliament_seats = yes
+}
+
+modify_parliament_seats = {
+	for_each_loop = {
+		array = global.parliament_id_array
+
+		set_temp_variable = { temp_id = global.parliament_id_array^i }
+		set_temp_variable = { temp_index = i }
+		modify_parliament_id_seats = yes
+	}
+}
+
+modify_parliament_id_seats = {
+	set_temp_variable = { temp_seat_count = global.parliament_seat_array^temp_index }
+	
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp_seat_count > 0 }
+		}
+		add_to_array = { global.parliament_main_array = temp_id }
+		subtract_from_temp_variable = { temp_seat_count = 1 }
+	}
+}

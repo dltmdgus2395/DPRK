@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "KOR1"
+		texturefile = "eventP/rightwingcartoon.dds"
+	}
+}
+
+
+

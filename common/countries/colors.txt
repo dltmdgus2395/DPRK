@@ -1,0 +1,218 @@
+#reload countrycolor_uis
+HOK = {
+	color_ui = rgb { 203  0  0 }
+}
+AOM = {
+	color_ui = rgb { 189  2  252 }
+}
+AKI = {
+	color_ui = rgb { 184  104  19 }
+}
+IWA = {
+	color_ui = rgb { 66  127  188 }
+}
+YAG = {
+	color_ui = rgb { 11  246  8 }
+}
+MYG = {
+	color_ui = rgb { 255  204  253 }
+}
+HUK = {
+	color_ui = rgb { 37  166  37 }
+}
+NIG = {
+	color_ui = rgb { 190  227  78 }
+}
+TOT = {
+	color_ui = rgb { 47  87  207 }
+}
+IBA = {
+	color_ui = rgb { 208  153  97 }
+}
+TBA = {
+	color_ui = rgb { 0  0  172 }
+}
+SAI = {
+	color_ui = rgb { 6  248  6 }
+}
+TKO = {
+	color_ui = rgb { 255  255  255 }
+}
+KAN = {
+	color_ui = rgb { 105  251  178 }
+}
+NGA = {
+	color_ui = rgb { 101  60  143 }
+}
+YMS = {
+	color_ui = rgb { 52  203  203 }
+}
+SIZ = {
+	color_ui = rgb { 180  154  75 }
+}
+AIT = {
+	color_ui = rgb { 255  94  221 }
+}
+GIF = {
+	color_ui = rgb { 247  242  255 }
+}
+TYM = {
+	color_ui = rgb { 33  73  135 }
+}
+ISI = {
+	color_ui = rgb { 17  186  17 }
+}
+HKI = {
+	color_ui = rgb { 17  186  186 }
+}
+SIG = {
+	color_ui = rgb { 180  21  233 }
+}
+MIE = {
+	color_ui = rgb { 186  186  17 }
+}
+GNM = {
+	color_ui = rgb { 50  59  42 }
+}
+MIE = {
+	color_ui = rgb { 245  255  0 }
+}
+WKY = {
+	color_ui = rgb { 21  233  21 }
+}
+WKK = {
+	color_ui = rgb { 0  207 0 }
+}
+OSK = {
+	color_ui = rgb { 147  86 207 }
+}
+KYT = {
+	color_ui = rgb { 187 193 83 }
+}
+OSK = {
+	color_ui = rgb { 177 24 237 }
+}
+TKS = {
+	color_ui = rgb { 214 15 27 }
+}
+KGW = {
+	color_ui = rgb { 227 192 87 }
+}
+HYG = {
+	color_ui = rgb { 82 115 247 }
+}
+KUT = {
+	color_ui = rgb { 128  219 176 }
+}
+OKY = {
+	color_ui = rgb { 173 208 14 }
+}
+EHM = {
+	color_ui = rgb { 255 193 18 }
+}
+TTR = {
+	color_ui = rgb { 209 255 183 }
+}
+OKY = {
+	color_ui = rgb { 202 244 28 }
+}
+HRS = {
+	color_ui = rgb { 76 1 171 }
+}
+SMN = {
+	color_ui = rgb { 128 6 35 }
+}
+YMG = {
+	color_ui = rgb { 68 237 110 }
+}
+HKO = {
+	color_ui = rgb { 144 141 155 }
+}
+SGA = {
+	color_ui = rgb { 138 218 255 }
+}
+NGS = {
+	color_ui = rgb { 209 0 35 }
+}
+OIT = {
+	color_ui = rgb { 153 74 214 }
+}
+KMT = {
+	color_ui = rgb { 255 255 236 }
+}
+MZK = {
+	color_ui = rgb { 27 237 63 }
+}
+KGS = {
+	color_ui = rgb { 2 119 166 }
+}
+ONW = {
+	color_ui = rgb { 127 127 127 }
+}
+NRA = {
+	color_ui = rgb { 179 61 119 }
+}
+TMT = {
+	color_ui = rgb { 246 182 161 }
+}
+TKB = {
+	color_ui = rgb { 183 1600 247 }
+}
+GUM = {
+	color_ui = rgb { 182 127 72 }
+}
+SDG = {
+	color_ui = rgb { 174 109 196 }
+}
+AIZ = {
+	color_ui = rgb { 182 72 100 }
+}
+WRA = {
+	color_ui = rgb { 218 158 79 }
+}
+UTM = {
+	color_ui = rgb { 153 211 60 }
+}
+US7 = {
+	color_ui = rgb { 0 0 0 }
+}
+YKH = {
+	color_ui = rgb { 105  251  178 }
+}
+SET = {
+	color_ui = rgb { 235 50  73 }
+}
+HRI = {
+	color_ui = rgb { 195 163  64 }
+}
+AWZ = {
+	color_ui = rgb { 131 0  35 }
+}
+TZM = {
+	color_ui = rgb { 256  148  148 }
+}
+TNB = {
+	color_ui = rgb { 105  251  178 }
+}
+IZU = {
+	color_ui = rgb { 75 2  86 }
+}
+WKS = {
+	color_ui = rgb { 255 191 0 }
+}
+YKI = {
+	color_ui = rgb { 255  204  20 }
+}
+BUS = {
+	color_ui = rgb { 0 0 255}
+}
+KOR = {
+	color_ui = rgb { 255 0 0}
+}
+
+
+
+
+
+
+

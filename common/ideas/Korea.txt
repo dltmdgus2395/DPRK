@@ -1,0 +1,43 @@
+ideas = {
+	country = {
+		KOR_invasion = {
+			picture = outer_island
+			
+			modifier = {
+				war_support_weekly = -0.003
+			}
+		}
+		
+		
+		KOR_the_shadow_state = {
+			picture = KOR_the_shadow_state
+
+			modifier = {
+				resistance_target = -5
+				encryption_factor = 5.23
+				trade_opinion_factor = -0.8
+				political_power_factor = 0.4
+			}
+		}
+		
+		KOR_rohism = {
+			
+			picture = KOR_rohism
+			
+			modifier = {
+				compliance_gain = -0.25
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+		}
+		KOR_the_three_realms = {
+			picture = KOR_the_three_realms
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_core_defence_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+	}
+}

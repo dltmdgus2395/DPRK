@@ -1,0 +1,7 @@
+burgund = {
+	icon = generic_propaganda
+	
+	visible = {
+		has_country_flag = KOR_roh
+	}
+}

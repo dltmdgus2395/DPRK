@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_outer_island"
+		texturefile = "gfx/interface/ideas/outer_island.dds"
+	}
+}

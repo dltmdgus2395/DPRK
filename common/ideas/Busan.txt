@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		BUS_alone = {
+			picture = outer_island
+			
+			modifier = {
+				enemy_justify_war_goal_time = 100
+				justify_war_goal_time = 100
+				political_power_factor = -1
+				
+			}
+		}
+	}
+}

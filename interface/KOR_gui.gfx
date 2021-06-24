@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = [
+		name = "korea_politic"
+		texturefile = "gfx/interface/korea_politic.dds"
+	}
+	spriteType = {
+		name = "GFX_Seat_Boxes"
+		texturefile = "gfx/interface/box_10x10.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_grid"
+		texturefile = "gfx/interface/TNO_GUI_Seats_Grid.dds"
+	}
+}

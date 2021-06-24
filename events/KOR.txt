@@ -1,0 +1,246 @@
+﻿add_namespace = KOR
+add_namespace = ROH
+
+news_event = {
+	id = KOR.1
+	title = KOR.1.t
+	is_triggered_only = yes
+	picture = KOR1
+	desc = {
+		text = KOR.1.d_jpn
+		trigger = {
+			NOT = {
+				tag = KOR
+			}
+		}
+	}
+	desc = {
+		text = KOR.1.d_kor
+		trigger = {
+			tag = KOR
+		}
+	}
+	option = { ###日本
+		name = KOR.1.a
+		trigger = {
+			NOT = {
+				tag = KOR
+			}
+			add_war_support = 0.25
+		}
+		
+	}
+	
+	option = { ###カンコク
+		name = KOR.1.b
+		trigger = {
+			tag = KOR
+		}
+		add_offsite_building = {
+			type = arms_factory
+			level = 350
+		}
+		add_offsite_building = {
+			type = industrial_complex
+			level = 350
+		}
+		every_owned_state = {
+			set_building_level = {
+				type = infrastructure
+				level = 10
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+		}
+		add_ideas = KOR_invasion
+		add_state_core = 451
+		add_state_core = 452
+		add_manpower = 10000000
+		hidden_effect = {
+			if = {
+			limit = {
+				NOT = { has_template = "SSSS戦車師団" }
+			}
+				division_template = {
+					name = "SSSS戦車師団"
+					division_names_group = SSSS_TANK
+	
+					regiments = {
+						mechanized = { x = 0 y = 0 }
+						mechanized = { x = 0 y = 1 }
+						mechanized = { x = 0 y = 2 }
+						mechanized = { x = 0 y = 3 }
+						mechanized = { x = 0 y = 4 }
+						mechanized = { x = 1 y = 0 }
+						mechanized = { x = 1 y = 1 }
+						mechanized = { x = 1 y = 2 }
+						mechanized = { x = 1 y = 3 }
+						mechanized = { x = 1 y = 4 }
+						modern_armor = { x = 2 y = 0}
+						modern_armor = { x = 2 y = 1}
+						modern_armor = { x = 2 y = 2}
+						modern_armor = { x = 2 y = 3}
+						modern_armor = { x = 2 y = 4}
+						modern_armor = { x = 3 y = 0}
+						modern_armor = { x = 3 y = 1}
+						modern_armor = { x = 3 y = 2}
+						modern_armor = { x = 3 y = 3}
+						modern_armor = { x = 3 y = 4}
+					}
+	
+					support = {
+						mot_recon = { x = 0 y = 0}
+						field_hospital = { x = 0 y = 1}
+						engineer = { x = 0 y = 2}
+						maintenance_company = { x = 0 y = 3}
+						logistics_company = { x = 0 y = 4}
+					}
+				}
+			
+		}
+		}
+		country_event = { 
+			id = KOR.2
+		} 
+	}
+}
+
+country_event = {
+	id = ROH.1
+	title = ROH.1.t
+	is_triggered_only = yes
+	#picture = 
+	desc = ROH.1.d
+	
+	option = {
+		name = ROH.1.a
+		hidden_effect = {
+		retire_ideology_leader = fascism
+		retire_ideology_leader = neutrality
+		retire_ideology_leader = democratic
+		retire_ideology_leader = communism
+		set_popularities = {
+				fascism = 100
+		}
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		set_cosmetic_tag = KOR_roh
+		set_country_flag = KOR_roh_burgund
+		}
+		
+		
+		create_country_leader = {
+			name = "盧武鉉"
+			desc = "POLITICS_ROH_DESC"
+			picture = "Face/Roh.dds"
+			expire = "1965.1.1"
+			ideology = centrism
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "盧武鉉"
+			desc = "POLITICS_ROH_DESC"
+			picture = "Face/Roh.dds"
+			expire = "1965.1.1"
+			ideology = nazism
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "盧武鉉"
+			desc = "POLITICS_ROH_DESC"
+			picture = "Face/Roh.dds"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "盧武鉉"
+			desc = "POLITICS_ROH_DESC"
+			picture = "Face/Roh.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+			}
+		}
+		set_party_name = { 
+			ideology = fascism
+			long_name = KOR_fascism_roh_long
+			name = KOR_fascism_roh
+		}
+		set_party_name = { 
+			ideology = neutrality
+			long_name = KOR_neutrality_roh_long
+			name = KOR_neutrality_roh
+		}
+		set_party_name = { 
+			ideology = democratic
+			long_name = KOR_democratic_roh_long
+			name = KOR_democratic_roh
+		}
+		set_party_name = { 
+			ideology = communism
+			long_name = KOR_communism_roh_long
+			name = KOR_communism_roh
+		}
+		
+		add_victory_points = {
+			province = 5161
+			value = 75  
+		}
+		set_province_name = {
+			id = 5161
+			name = "世界首都ボンハマニア"
+		}
+		
+		add_ideas = {
+			KOR_the_shadow_state
+			KOR_rohism
+			KOR_the_three_realms
+		}
+		complete_national_focus = KOR_politic_1
+		complete_national_focus = KOR_politic_roh
+	}
+}
+
+country_event = {
+	id = KOR.2
+	title = KOR.2.t
+	desc = KOR.2.d
+	is_triggered_only = yes
+	immediate = {
+		set_country_flag = KOR_invasion_start
+		KOR_reload_tree = yes
+	}
+	option = {
+		name = KOR.2.a
+		
+	}
+}
+
+country_event = {
+	id = KOR.3
+	title = KOR.3.t
+	desc = KOR.3.d
+	is_triggered_only = yes
+	immediate = {
+		set_country_flag = KOR_politic
+	}
+	option = {
+		name = KOR.3.a
+	}
+
+}
