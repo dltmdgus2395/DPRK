@@ -1,0 +1,9 @@
+supply_area={
+	id=216
+	name="Chosen"
+	value=100
+	states={
+		451
+		452
+	}
+}
